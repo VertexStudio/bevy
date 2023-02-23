@@ -587,6 +587,16 @@ category = "Animation"
 wasm = true
 
 [[example]]
+name = "character_ik"
+path = "examples/animation/character_ik.rs"
+
+[package.metadata.example.character_ik]
+name = "Character IK"
+description = "Applies IK on skinned glTF character"
+category = "Animation"
+wasm = true
+
+[[example]]
 name = "animated_transform"
 path = "examples/animation/animated_transform.rs"
 
